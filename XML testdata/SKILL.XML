@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--This starts the DTD. The first four lines address document structure-->
+<list>
+    <Categorie name="Pilot">
+      <Skill name="Pilot Airplane">
+	<Description>Please edit description with text from Rift RPG game</Description>
+      	<Award base="60" name="Pilot Airplane" onLevel="5"/> 
+      	<Bonus amount="4" roll="" target="PE"/>
+        <Restriction bonus="0" name="mecanic 101" type="req"/>
+      </Skill>
+      <Skill name="Pilot Car">
+        <Description>Please edit description with text from Rift RPG game</Description>
+        <Award base="60" name="Pilot Car" onLevel="2"/>
+        <Bonus amount="" roll="1d4" target="IQ"/>
+        <Bonus amount="1" roll="" target="PS"/>
+      </Skill>
+    </Categorie>
+    <Categorie name="Science">
+      <Skill name="Chemestry 101">
+        <Description>Please edit description with text from Rift RPG game</Description>
+        <Award base="30" name="Chemestry 101" onLevel="5"/>
+        <Restriction bonus="0" name="reading" type="req"/>
+      </Skill>
+    </Categorie>
+    <Categorie name="Physical">
+        <Skill name="Acrobatics">
+            <Description>Please edit description with text from Rift RPG game</Description>
+            <Award base="60" name="Sence of balance" onLevel="5"/>
+            <Award base="60" name="Walk tightrope or high wire" onLevel="3"/>
+            <Award base="80" name="Climb rope" onLevel="2"/>
+            <Award base="60" name="Back Flip" onLevel="5"/>
+            <Ability altBonus="15" altSkill="climb" bonus="40" name="base climb ability"/>
+            <Ability altBonus="5" altSkill="prowl" bonus="30" name="base prowl"/>
+            <Bonus amount="2" roll="" target="RWPF"/>
+            <Bonus amount="1" roll="" target="ps"/>
+            <Bonus amount="1" roll="" target="pp"/>
+            <Bonus amount="1" roll="" target="pe"/>
+            <Bonus amount="" roll="1d6" target="sdc"/>
+        </Skill>
+    </Categorie>
+<Categorie name="Technical">
+
+<Skill name="Art">
+<Description>Please edit description with text from Rift RPG game</Description>
+<Award base="30" name="Art" onLevel="2"/>
+</Skill>
+</Categorie>
+<Categorie name="Rogue Skills">
+
+<Skill name="Prowl">
+<Description>Please edit description with text from Rift RPG game</Description>
+<Award base="25" name="Prowl" onLevel="5"/>
+</Skill>
+<Skill name="Streetwise">
+<Description>Please edit description with text from Rift RPG game</Description>
+<Award base="20" name="Streetwise" onLevel="4"/>
+</Skill>
+</Categorie>
+
+</list>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : equipment.xml
+    Created on : December 31, 2009, 11:31 AM
+    Author     : Maude
+    Description:
+        Purpose of the document follows.
+-->
+<root>
+    <weapons>
+        <weapon>
+            <name>C-18 Laser Pistol</name>
+            <megaDamage>2D4 M.D.</megaDamage>
+            <rateOfFire>Standard, see Modern weapon proficiency section</rateOfFire>
+            <effectiveRange>800ft (244m)</effectiveRange>
+            <payload>10 shot</payload>
+            <cost>12,000 credits.</cost>
+        <sdcDamage/>
+<description>Please edit description with text from Rift RPG game</description>
+<ref/>
+</weapon>
+    <weapon>
+<name>C-12 Heavy Assault Laser Rifle</name>
+<megaDamage>4D6 or 2D6</megaDamage>
+<sdcDamage>6D6</sdcDamage>
+<rateOfFire>Aimed, burst, wild; see modern Weapons Proficiencies.</rateOfFire>
+<effectiveRange>2000</effectiveRange>
+<payload>20 reg E-Clip, 30 Long E-Clip and 60 on a E-Clip canister</payload>
+<cost>20k creds gun, 6k charged E-Clip, 1,5k per charge, Canister 10k charged</cost>
+<description>Please edit description with text from Rift RPG game</description>
+<ref>page 203, Rifts player guide</ref>
+</weapon>
+</weapons>
+    <vehicules>
+
+    <vehicule>
+<name>jTextField1</name>
+<model>jTextField2</model>
+<crew>jTextField3</crew>
+<speed>jTextField4</speed>
+<maxRange>jTextField5</maxRange>
+<statisticalData>Please edit description with text from Rift RPG game</statisticalData>
+<description>Please edit description with text from Rift RPG game</description>
+<cost>jTextField6</cost>
+<ref>jTextField7</ref>
+<statisticData>Please edit description with text from Rift RPG game</statisticData>
+<weaponSystem>zxczxc</weaponSystem>
+<MDCLocation>zxczx</MDCLocation>
+<weaponSystem>zxczxc</weaponSystem>
+<weaponSystem>zxczxc</weaponSystem>
+<weaponSystem>zczxczxczxczx</weaponSystem>
+</vehicule>
+<robotVehicule>
+<name>asdasd</name>
+<model>asdasd</model>
+<class>asdasd</class>
+<crew>dasdas</crew>
+<MDCLocation>asdasd</MDCLocation>
+<MDCLocation>asdasdas</MDCLocation>
+<speed>asdas</speed>
+<statisticalData>asdasd</statisticalData>
+<weaponSystem>asdasd</weaponSystem>
+<weaponSystem>asdasd</weaponSystem>
+<description>asdasd</description>
+<cost>asdasd</cost>
+<ref>dasd</ref>
+</robotVehicule>
+</vehicules>
+    <armors>
+
+    <bodyArmor>
+<name>The Plastic Man</name>
+<mdc>35</mdc>
+<weight>13 pounds (5.8kg)</weight>
+<mobility>fair - 10% prowl penality</mobility>
+<cost>18 000 creds black market</cost>
+<description>Please edit description with text from Rift RPG game</description>
+</bodyArmor>
+<powerArmor>
+<name>Northen Gun Samson Powr Armor</name>
+<model>NG-X9</model>
+<class>Armored Infantry Assault Suite</class>
+<crew>1</crew>
+<speed>running 150mph, ...</speed>
+<statisticalData>Please edit description with text from Rift RPG game</statisticalData>
+<description>Please edit description with text from Rift RPG game</description>
+<cost>850 000 on the black market</cost>
+<ref>p. 212 players guide rifts</ref>
+
+
+
+<MDCLocation>Rear Booster Jets (2) - 50 each</MDCLocation>
+
+<MDCLocation>Forearm Mini-Missile Launcher (2) - 50 each</MDCLocation>
+
+<weaponSystem>Forearm Rocket Launcher</weaponSystem>
+
+<MDCLocation>Rail Gun - 50</MDCLocation>
+<MDCLocation>Rear Booster Jets (2) - 50 each</MDCLocation>
+<MDCLocation>Ammo-Drum (rear) - 30</MDCLocation>
+<MDCLocation>Forearm Mini-Missile Launcher (2) - 50 each</MDCLocation>
+<weaponSystem>NG-202 Super Rail Gun (1)</weaponSystem>
+<weaponSystem>Forearm Rocket Launcher</weaponSystem>
+<weaponSystem>Knuckle blades</weaponSystem>
+</powerArmor>
+</armors>
+</root>

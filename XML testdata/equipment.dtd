@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/equipment.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE root SYSTEM "equipment.dtd">
+
+    <root>
+    ...
+    </root>
+-->
+
+    <!ELEMENT root (weapons,vehicules,armors)>
+    <!ELEMENT weapons (weapon*)>
+    <!ELEMENT vehicules (vehicule|robotVehicules)*>
+    <!ELEMENT armors (bodyArmor|powerArmor)*>
+    <!ELEMENT weapon (name,megaDamage?,sdcDamage?,rateOfFire,effectiveRange,
+    payload,cost,description?,ref?)>
+    <!ELEMENT vehicule (CDATA,model,crew,speed,maxRange,MDCLocation*,
+    statisticData?,weaponSystem*,description?,cost,ref?)>
+    <!ELEMENT robotVehicule (CDATA,model,class,crew,MDCLocation*,speed,
+    statisticalData?,weaponSystem,description?,cost,ref?)>
+    <!ELEMENT bodyArmor (CDATA,mdc,weight,mobility,cost,description?)>
+    <!ELEMENT powerArmor (CDATA,model,class,crew,MDCLocation,speed,
+    statisticalData?,weaponSystem?,description?,cost,ref?)>
+    <!ELEMENT ref (#PCDATA)>
+    <!ELEMENT megaDamage (#PCDATA)>
+    <!ELEMENT sdcDamage (#PCDATA)>
+    <!ELEMENT rateOfFire (#PCDATA)>
+    <!ELEMENT effectiveRange (#PCDATA)>
+    <!ELEMENT cost (#PCDATA)>
+    <!ELEMENT weaponSystem (weapon*)>
+    <!ELEMENT crew (#PCDATA)>
+    <!ELEMENT MDCLocation (#PCDATA)>
+    <!ELEMENT speed (#PCDATA)>
+    <!ELEMENT model (#PCDATA)>
+    <!ELEMENT class (#PCDATA)>
+    <!ELEMENT statisticalData (#PCDATA)>
+    <!ELEMENT maxRange (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT payload (#PCDATA)>
+

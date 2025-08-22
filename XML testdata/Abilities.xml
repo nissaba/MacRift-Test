@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : Abilities.xml
+    Created on : December 31, 2009, 12:28 AM
+    Author     : Pascale
+    Description:
+        Purpose of the document follows.
+-->
+<abilities>    
+    <spells>
+        <mageSphere name="generaic magic">
+            <level lvl="Level 1">
+                <spell>
+                    <name>Blinding Flash</name>
+                    <range>10ft (3m) radius; up to 60ft (18.3m) away.</range>
+                    <duration>Instant</duration>
+                    <damage/>
+                    <ppe>1</ppe>
+                    <saving>Standard</saving>
+                    <description>Please edit description with text from Rift RPG game</description>
+                </spell>
+                <spell>
+                    <name>Cloud of smoke</name>
+                    <range>90ft (27.4m)</range>
+                    <duration>4 melees per level of experience</duration>
+                    <damage/>
+                    <ppe>2</ppe>
+                    <saving>None</saving>
+                    <description>Please edit description with text from Rift RPG game</description>
+                </spell>
+            </level>
+            <level lvl="Level 2">
+                <spell>
+                    <name>Befuddle</name>
+                    <range>100ft (30.5m)</range>
+                    <duration>2 minute (8 melees) per level of experience.</duration>
+                    <damage/>
+                    <ppe>6</ppe>
+                    <saving>Standard</saving>
+                    <description>Please edit description with text from Rift RPG game</description>
+                </spell>
+                <spell>
+                    <name>Chameleon</name>
+                    <range>Self or others by touch</range>
+                    <duration>18 melees per level of experience</duration>
+                    <damage/>
+                    <ppe>6</ppe>
+                    <saving>None</saving>
+                    <description>Please edit description with text from Rift RPG game</description>
+                </spell>
+            </level>
+        </mageSphere>
+
+        
+    <mageSphere name="Biomancy">
+<level lvl="level 1">
+<spell>
+<name>Commune with nature</name>
+<range>1 mile (1.6km) radius per level</range>
+<duration>instant</duration>
+<damage/>
+<ppe>2</ppe>
+<saving>none</saving>
+<description>Please edit description with text from Rift RPG game</description>
+</spell>
+<spell>
+<name>Shape Plants</name>
+<range>touch</range>
+<duration>permanent</duration>
+<damage/>
+<ppe>4</ppe>
+<saving>none</saving>
+<description>Please edit description with text from Rift RPG game</description>
+</spell>
+</level>
+<level lvl="Level 2">
+<spell>
+<name>Animate Plant: minor</name>
+<range>60ft (18.3m) per level</range>
+<duration>1 melee round (15 sec) per level</duration>
+<damage/>
+<ppe>4</ppe>
+<saving>none</saving>
+<description>Please edit description with text from Rift RPG game</description>
+</spell>
+<spell>
+<name>Animal Weaponry: simple</name>
+<range>self</range>
+<duration>1 minute per level</duration>
+<damage/>
+<ppe>6</ppe>
+<saving>none</saving>
+<description>Please edit description with text from Rift RPG game</description>
+</spell>
+</level>
+</mageSphere>
+</spells>
+    
+    <psionics>
+        <psiSphere name="generic psi">
+            <category type="Super Psionics">
+                <psipower>
+                    <name>Bio-Manipulation (the evil eye)</name>
+                    <range>160ft/48.8m</range>
+                    <duration>4-16 minutes (roll 4d4)</duration>
+                    <trance/>
+                    <isp>10</isp>
+                    <saving>Standard</saving>
+                    <description>Please edit description with text from Rift RPG game</description>
+                </psipower>
+                <psipower>
+                    <name>Bio-Regeneration (super)</name>
+                    <range>self</range>
+                    <duration>Permanent</duration>
+                    <trance/>
+                    <isp>20</isp>
+                    <saving/>
+                    <description>Please edit description with text from Rift RPG game</description>
+                </psipower>
+            </category>
+            <category type="Physical">
+                <psipower>
+                    <name>Alter Aura</name>
+                    <range>self</range>
+                    <duration>one hour per each level of experience</duration>
+                    <trance/>
+                    <isp>2</isp>
+                    <saving>None</saving>
+                    <description>Please edit description with text from Rift RPG game</description>
+                </psipower>
+                <psipower>
+                    <name>Death Trance</name>
+                    <range>self</range>
+                    <duration>As long as the psychic senses he must feint death, up to a         maximum of 4 days</duration>
+                    <trance/>
+                    <isp>1</isp>
+                    <saving/>
+                    <description>Please edit description with text from Rift RPG game</description>
+                </psipower>
+
+            </category>
+        </psiSphere>
+
+    </psionics>
+</abilities>

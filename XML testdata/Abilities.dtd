@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Abilities.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE abilities SYSTEM "Abilities.dtd">
+
+    <abilities>
+    ...
+    </abilities>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+
+<!ELEMENT abilities (spells|psionics)+>
+<!ELEMENT spells (mageSphere+)>
+<!ELEMENT mageSphere (level+)>
+<!ATTLIST mageSphere
+    name CDATA #IMPLIED
+>
+<!ELEMENT level (spell)*>
+<!ATTLIST level
+    lvl CDATA #IMPLIED
+  >
+<!ELEMENT spell (name, range, duration, damage?, ppe, saving, description)>
+<!ELEMENT psionics (psiSphere+)>
+<!ELEMENT psiSphere (category+)>
+<!ATTLIST psiSphere
+    name CDATA #IMPLIED
+>
+<!ELEMENT category (psipower)*>
+<!ATTLIST category
+    type CDATA #IMPLIED
+  >
+<!ELEMENT psipower (name, range, duration, trance?, isp, saving?, description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT range (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT damage (#PCDATA)>
+<!ELEMENT saving (#PCDATA)>
+<!ELEMENT ppe (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT isp (#PCDATA)>
+<!ELEMENT trance (#PCDATA)>
+

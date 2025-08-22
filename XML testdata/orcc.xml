@@ -1,0 +1,43 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<root>
+    <orcc type="occ" name="Glitter Boy" >
+        <attrReq type="pp" req="min">10</attrReq>
+        <attrReq type="iq" req="optional"></attrReq>
+        <attrReq type="me" req="optional"></attrReq>
+        <mainSills>
+            <skillname name="Language" times="2" bonus="20"/>
+            <skillname name="Land Navigation" time="1" bonus="4"/>
+            <skillname name="Basic Electronics" times="1" bonus="10"/>
+        </mainSills>
+        <relatedSkills>
+            <bonusskill lvl="1" nbr="6"/>
+            <bonusskill lvl="3" nbr="2"/>
+            <bonusskill lvl="6" nbr="1"/>
+            <bonusskill lvl="9" nbr="1"/>
+            <bonusskill lvl="12" nbr="1"/>
+        </relatedSkills>
+        <possibleSkills>
+                <skillType type="Communication" any="true"/>
+                <skillType type="Mechanical" any="false">
+                    <selection name="Automitive" bonus="5"/>
+                </skillType>
+                <skillType type="Physical" any="true">
+                    <restriction name="Acrobatics" />
+                    <restriction name="Gymnastics" />
+                </skillType>
+            </possibleSkills>
+        <secondarySkills>
+            <bonnusSkill lvl="1" nbr="6"/>
+        </secondarySkills>
+        <eqipment >
+
+        </eqipment>
+        <money>
+            <credits roll="4d6" mult="100"/>
+            <blackMarket roll="1d4" mult="1000"/>
+        </money>
+        <cybernetics />
+    </orcc>
+</root>
